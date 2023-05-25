@@ -2,8 +2,9 @@
 
 
 body {
-    background-image: url("sakura-tree-on-black-background-1920×1080.jpg");
+    /*background-image: url("sakura-tree-on-black-background-1920×1080.jpg");*/
     /*backdrop-filter: blur(1px);*/
+    background: linear-gradient(to bottom, #c8e8ff, #887e9e);
     background-attachment: fixed;
     background-size: cover;
 
@@ -11,34 +12,35 @@ body {
 
 @font-face {
     font-family: Newfont1;
-    src: url(sweet.ttf);
+    src: url(Raleway-VariableFont_wght.ttf);
 }
 
 header {
     font-family: Newfont1;
     justify-content: center;
     display: flex;
-    font-size: 50px ;
+    font-size: 60px ;
+    padding: 10px;
 }
 
 @keyframes color-transition {
-    0% { color: rgb(255, 171, 185); }
-    50% { color: rgb(125, 1, 125); }
-    100% { color: rgb(255, 171, 185); }
+    0% { color: rgb(94, 149, 196); }
+    50% { color: rgb(79, 0, 115); }
+    100% { color: rgb(94, 149, 196); }
 }
 
 h1{
     font-family: Newfont1;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
-    left: 0%;
+    /*left: 0%;
     right: 50%;
-    text-align: justify;
-    color: #d80de7;
+    text-align: justify;*/
+    color: #333333;
 }
   
 .text-color-transition {
-    animation: color-transition 2s infinite;
+    animation: color-transition 4s infinite;
 }
 
 /* Grid ? */
@@ -112,14 +114,14 @@ p {
 
 /* Bar */
 nav {
-    background-color: #d80de7;
+    background-color: #154162;
     padding: 10px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     display: flex;
     justify-content: center;
 }
